@@ -76,14 +76,49 @@ header a:hover {
 
 /* MAIN  */
 
+.cube {
+    width: 35%;
+}
+
+div [class^="col-"] img {
+    height: 6rem;
+}
+
 
 /* FOOTER  */
 
 
 /* UTILITY */
 
-.ver-align-m {
-    vertical-align: middle;
+
+/* shadow */
+
+.shadow {
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.38);
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.38);
+}
+
+
+/* column width */
+
+.hp {
+    background-color: red;
+}
+
+.col-33 {
+    width: calc(100% / 3);
+}
+
+.col-66 {
+    width: calc((100%/3)*2);
+}
+
+.align-center {
+    margin: 0 auto;
+}
+
+.txt-align-center {
+    text-align: center;
 }
 
 .container {
@@ -110,14 +145,23 @@ header a:hover {
     font-weight: bold;
 }
 
+.txt-dec-none {
+    text-decoration: none;
+}
+
+.txt-dec-through {
+    text-decoration: line-through;
+    text-decoration-color: #34485C;
+}
+
 
 /* float */
 
-[class^=col-] {
+[class^="col-"] {
     float: left;
 }
 
-.row {
+.row::after {
     content: "";
     display: table;
     clear: both;
@@ -134,6 +178,26 @@ header a:hover {
     padding: .5rem;
 }
 
+.pad-y-10 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.pad-y-20 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.pad-y-30 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.pad-x-30 {
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
 .pad-10 {
     padding: 1rem;
 }
@@ -144,6 +208,10 @@ header a:hover {
 
 .pad-r-10 {
     padding-right: 1rem;
+}
+
+.pad-r-50 {
+    padding-right: 5rem;
 }
 
 .pad-t-30 {
@@ -157,8 +225,16 @@ header a:hover {
     margin-left: 1rem;
 }
 
+.mar-l-30 {
+    margin-left: 3rem;
+}
+
 .mar-t-20 {
     margin-top: 2rem;
+}
+
+.mar-t-10 {
+    margin-top: 1rem;
 }
 
 .radious {
