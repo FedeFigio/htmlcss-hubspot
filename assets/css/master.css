@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* HEADER  */
+
+.language::after {
+    content: "˅";
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+    color: #376ea5;
+}
+
+.nav-fix {
+    height: 5rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    border-bottom: 1px solid #34485C;
+    line-height: 5rem;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+/* MAIN  */
+
+
+/* FOOTER  */
+
+
+/* UTILITY */
+
+.inline-block {
+    display: inline-block;
+}
+
+
+/* serigraphy */
+
+.txt-bold {
+    font-weight: bold;
+}
+
+
+/* float */
+
+[class^=col-] {
+    float: left;
+}
+
+.row {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-right {
+    float: right;
+}
+
+
+/* padding */
+
+.pad-5 {
+    padding: .5rem;
+}
+
+.pad-l-10 {
+    padding-left: 1rem;
+}
+
+.pad-r-10 {
+    padding-right: 1rem;
+}
+
+
+/* margin / border /radious */
+
+.mar-l-10 {
+    margin-left: 1rem;
+}
+
+.radious {
+    border-radius: 5px;
+}
+
+.border-left-blue {
+    border-left: 1px solid #34485C;
+}
+
+.border-orange {
+    border: 1px solid #FE775A;
+}
+
+
+/* color */
+
+.bg-gray {
+    background-color: #F4F9FD;
+}
+
+.bg-orange {
+    background-color: #FE775A;
+}
+
+.txt-blue {
+    color: #34485C;
+}
+
+.txt-white {
+    color: #FFFFFF;
+}
+
+.txt-orange {
+    color: #FE775A;
+}
+
+.txt-lightblue {
+    color: #00A7BA;
+}
+
+
+/* components */
