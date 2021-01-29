@@ -16,7 +16,7 @@ header a {
     text-decoration: none;
 }
 
-header a:hover {
+header a:hover:not(.free, .login) {
     text-decoration: underline;
     color: #376ea5;
 }
@@ -90,29 +90,6 @@ div [class^="col-"] img {
 
 /* UTILITY */
 
-
-/* shadow */
-
-.shadow {
-    -webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.38);
-    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.38);
-}
-
-
-/* column width */
-
-.hp {
-    background-color: red;
-}
-
-.col-33 {
-    width: calc(100% / 3);
-}
-
-.col-66 {
-    width: calc((100%/3)*2);
-}
-
 .align-center {
     margin: 0 auto;
 }
@@ -136,6 +113,29 @@ div [class^="col-"] img {
 
 .fit-content {
     width: fit-content;
+}
+
+
+/* shadow */
+
+.shadow {
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.38);
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.38);
+}
+
+
+/* column width */
+
+.hp {
+    background-color: red;
+}
+
+.col-33 {
+    width: calc(100% / 3);
+}
+
+.col-66 {
+    width: calc((100%/3)*2);
 }
 
 
@@ -233,6 +233,10 @@ div [class^="col-"] img {
     margin-top: 2rem;
 }
 
+.mar-t-30 {
+    margin-top: 3rem;
+}
+
 .mar-t-10 {
     margin-top: 1rem;
 }
@@ -294,8 +298,3 @@ div [class^="col-"] img {
 .txt-size {
     font-size: 1rem;
 }
-
-
-/* components */
-
-span {}
