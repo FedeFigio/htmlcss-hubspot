@@ -144,6 +144,42 @@ div [class^="col-"] img {
     font-size: 1.5em;
 }
 
+.grid-section .col-25 {
+    display: inline-block;
+    width: calc(100%/4);
+    min-height: 10rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.grid-section .col-25:not(:first-child) {
+    border-left: 1px solid white;
+}
+
+.grid-section .row-grid:not(:last-child) {
+    border-bottom: 1px solid white;
+}
+
+.grid-section .col-25>* {
+    display: block;
+    margin: 0 auto;
+}
+
+.grid-section .col-25 img {
+    height: 2rem;
+}
+
+.grid-section .col-25 p:nth-child(2) {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.grid-section .col-25 p:nth-child(3) {
+    font-size: .7rem;
+    margin-top: 1rem;
+}
+
 
 /* FOOTER  */
 
