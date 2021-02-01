@@ -182,10 +182,33 @@ div [class^="col-"] img {
 }
 
 
+/* partner-section */
+
+.partner .col-25 {
+    width: calc(100%/4);
+}
+
+.partner .col-25 img {
+    height: 2rem;
+    margin-top: 1.5rem;
+}
+
+.partner .lady {
+    position: absolute;
+    right: 0;
+    top: -1rem;
+    height: 19rem;
+}
+
+
 /* FOOTER  */
 
 
 /* UTILITY */
+
+.p-relative {
+    position: relative;
+}
 
 .align-center {
     margin: 0 auto;
@@ -251,6 +274,14 @@ div [class^="col-"] img {
     text-decoration-color: #34485C;
 }
 
+.f-size-25 {
+    font-size: 2.5rem;
+}
+
+.f-size-8 {
+    font-size: .8em;
+}
+
 
 /* float */
 
@@ -306,6 +337,10 @@ div [class^="col-"] img {
 
 .pad-l-10 {
     padding-left: 1rem;
+}
+
+.pad-l-50 {
+    padding-left: 5rem;
 }
 
 .pad-r-10 {
