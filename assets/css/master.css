@@ -138,10 +138,6 @@ div [class^="col-"] img {
 }
 
 .grid-section h1 {
-    font-size: 2.7em;
-}
-
-.grid-section p {
     font-size: 1.5em;
 }
 
@@ -184,10 +180,6 @@ div [class^="col-"] img {
 
 /* partner-section */
 
-.partner .col-25 {
-    width: calc(100%/4);
-}
-
 .partner .col-25 img {
     height: 2rem;
     margin-top: 1.5rem;
@@ -203,8 +195,61 @@ div [class^="col-"] img {
 
 /* FOOTER  */
 
+footer .link .col-25 li:first-child {
+    font-weight: bold;
+}
+
+footer ul {
+    list-style: none;
+    font-size: .8rem;
+}
+
+footer li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-bottom: .8rem;
+    display: block;
+}
+
+footer li a:hover {
+    text-decoration: underline;
+    color: #00A7BA;
+}
+
+footer .social li {
+    display: inline-block;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    padding: 0;
+}
+
+.language-footer li {
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+.col-50 {
+    width: calc(100%/2);
+}
+
+.footer-logo {
+    width: 5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.privacy ul li {
+    display: inline-block;
+    padding-left: 1rem;
+    padding-top: 2rem;
+}
+
 
 /* UTILITY */
+
+.col-25 {
+    width: calc(100%/4);
+}
 
 .p-relative {
     position: relative;
@@ -280,6 +325,10 @@ div [class^="col-"] img {
 
 .f-size-8 {
     font-size: .8em;
+}
+
+.txt-align-r {
+    text-align: right;
 }
 
 
@@ -359,6 +408,10 @@ div [class^="col-"] img {
     padding-bottom: 3rem;
 }
 
+.pad-y-10 {
+    padding: 1rem 0;
+}
+
 
 /* margin / border /radious */
 
@@ -417,6 +470,14 @@ div [class^="col-"] img {
 
 .bg-white {
     background-color: #FFFFFF;
+}
+
+.bg-dark-gray {
+    background-color: #32495B;
+}
+
+.txt-dark-gray {
+    color: #32495B;
 }
 
 .txt-blue {
